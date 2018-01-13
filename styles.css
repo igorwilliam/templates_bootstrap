@@ -1,10 +1,10 @@
-html,
-body{
+html, body {
   height: 100%;
-
 }
-#cover{
-  background: #222 url('img/stars.jpg') no-repeat center center; /*O que eh esse #222*/
+
+#cover {
+  background: #222 url('img/stars.jpg') no-repeat center center;
+  /*O que eh esse #222*/
   background-size: cover;
   color: white;
   height: 100%;
@@ -13,33 +13,33 @@ body{
   align-items: center;
 }
 
-#cover-caption{
+#cover-caption {
   width: 100%;
 }
 
-form{
+form {
   justify-content: center;
   align-items: center;
 }
 
-.section-content{
+.section-content {
   padding: 5rem 0;
 }
 
-#about{
+#about {
   background: url('img/girlincar.jpg') center center no-repeat;
   background-size: cover;
 }
 
-.about-text{
-  background: rgba(0,0,0, 0.9);
+.about-text {
+  background: rgba(0, 0, 0, 0.9);
   color: white;
   padding: 20px;
 }
 
-#footer-main{
+#footer-main {
   background: #222;
   color: white;
   font-size: 0.8rem;
-  padding:2.5rem 0;
+  padding: 2.5rem 0;
 }
