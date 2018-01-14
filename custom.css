@@ -1,13 +1,54 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Joti+One');
 
-.openSans {
+
+body {
   font-family: 'Open Sans', sans-serif;
 }
 
 /* navgation bar custom styles */
 .navbar-light .navbar-nav .nav-link {
   color: #999;
-  font-size: 28px;
   font-weight: 800;
-  line-height: 20px; 
+}
+
+.jumbotron {
+  background: url("assets/Hero-Image.jpg") no-repeat;
+  background-position: top;
+  color: white;
+  background-size: cover;
+
+}
+
+.jumbotron p{
+  font-size: 18px;
+}
+
+.jumbotron .container {
+  background: rgba(54,54,54,0.5);
+  padding-top: 15px;
+  padding-bottom: 5px;
+  margin-bottom: 1rem;
+}
+
+#about, #contact {
+  padding-top: 2rem;
+}
+
+#about .section-heading{
+  font-family: 'Joti One', cursive;
+  font-weight: bolder;
+}
+
+#contact .section-heading{
+  font-family: 'Joti One', cursive;
+  font-weight: lighter;
+}
+
+#footer{
+  margin-top: 20px;
+  background-color: #6b6a47;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
